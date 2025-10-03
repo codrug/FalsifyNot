@@ -205,3 +205,38 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyTorch / TensorFlow checkpoints and large artifacts
+models/
+data/
+outputs/
+archives/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
