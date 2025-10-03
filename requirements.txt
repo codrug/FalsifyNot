@@ -1,0 +1,31 @@
+# Core ML frameworks
+torch
+torchvision
+torchaudio
+transformers
+datasets
+
+# Data handling & utilities
+numpy
+pandas
+scikit-learn
+tqdm
+
+# Visualization
+matplotlib
+seaborn
+opencv-python
+pillow
+
+# Explainability
+captum          # for PyTorch model interpretability (Grad-CAM, etc.)
+lime            # optional, for text/image explanation
+shap            # optional, for feature importance
+
+# Web/UI
+streamlit
+gradio
+
+# Others
+requests
+beautifulsoup4   # (if you want to scrape/parse metadata later)
